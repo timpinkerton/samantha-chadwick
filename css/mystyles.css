@@ -83,12 +83,13 @@ a:hover {
 
 
 .variable-width {
-  margin-top: 40px;
+
 }
 
 
 
 .variable-width img {
+  margin-top: 40px;
   height: 500px;
 }
 
