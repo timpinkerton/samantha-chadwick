@@ -104,6 +104,7 @@ div.scrollWrapper {
 div.scrollableArea {
   position: relative;
   height: 100%;
+  width: 6000px; 
 }
 
 #makeMeScrollable div.scrollableArea *
@@ -123,6 +124,10 @@ div.scrollableArea {
 	-moz-user-select: none;
 	-o-user-select: none;
 	user-select: none;
+}
+
+.scrollableArea img {
+  height: 100%; 
 }
 
 
