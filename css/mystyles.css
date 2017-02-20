@@ -40,10 +40,174 @@ a:hover {
   color: #000;
 }
 
+/********* Heading **********/
+
+.name-title {
+  font-family: 'Arimo', sans-serif; 
+  color: #000;
+  margin: 0;
+  padding: 0; 
+  list-style: none; 
+}
+
+.name {
+  font-family: 'Arimo', sans-serif; 
+  margin: 0px 0px; 
+  padding: 0;
+  font-size: 1.6em; 
+  line-height: 1.6em;  
+  text-align: center; 
+}
+
+.title {
+  font-size: .8em; 
+  margin: 0 0px; 
+  text-align: center;
+}
 
 
-/********* Navigation **********/
+/********* NEW Navigation **********/
 
+.second-container {
+  position: absolute; 
+  z-index: 1; 
+  width: 100%; 
+  height: 100px; 
+  background: linear-gradient(to bottom, rgba(250,250,250,1) 55%, rgba(250,250,250,0.0));
+}
+
+.nav-toggle {
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 1.em;
+  cursor: pointer;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  text-align: center;
+  padding: 0; 
+  margin:  0 5px 0 0; 
+  flex-grow: 1; 
+}
+
+/*
+.title {
+  flex-grow: 1;
+  text-align: left; 
+  margin-left: 5px;
+  font-size: 1.1em; 
+}
+*/
+
+
+.main-nav {
+  max-height: 0px;
+  overflow: hidden;
+  display: flex; 
+   -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  justify-content: space-around;
+}
+
+.main-nav ul {
+  padding: 0; 
+  margin: 2px; 
+}
+
+.main-nav li {
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 1em; 
+  display: inline-flex; 
+  margin: 0 10px; 
+}
+
+.main-nav li > ul {
+  max-height: 0px;
+  width: 0; 
+  opacity: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.main-nav li.active > ul {
+  max-height: 999px;
+  opacity: 1;
+  width: 100%; 
+}
+
+.main-nav a, .main-nav p {
+  color: #000;
+  text-decoration: none;
+  margin: 4px 0px;
+  display: block;
+}
+
+.main-nav a:hover, .main-nav p:hover {
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline; 
+}
+
+.main-nav p:hover {
+  cursor: default;
+}
+
+.sub-menu {
+  padding: 0; 
+}
+
+.sub-menu li {
+  display: block;
+}
+
+
+.nav-links {
+  width: 100%; 
+  padding: 0; 
+  display: flex; 
+  justify-content: space-around
+}
+
+.nav-links li {
+  margin: 0 20px; 
+  display: inline-flex; 
+}
+
+
+/*
+.nav-toggle span {
+  position: relative;
+  top: 1px;
+}
+*/
+
+/*
+.nav-toggle:hover {
+  color: #0066CC;
+}
+*/
+
+/*
+.nav-container.active .nav-toggle{
+  color: #0066CC;
+}
+*/
+
+.nav-container.active .main-nav{
+  max-height: 999px;
+  background: linear-gradient(to bottom, rgba(250,250,250,.25) 80%, rgba(250,250,250,0.005));}
+
+/********* OLD Navigation **********/
+
+/*
 .main-nav {
   background-image: linear-gradient(to bottom, rgba(250,250,250,1) 45%, rgba(250,250,250,0));
   width: 100%;
@@ -56,26 +220,6 @@ a:hover {
 
 .main-nav ul {
   padding: 0; 
-}
-
-.name-title {
-  font-family: 'Arimo', sans-serif; 
-  color: #000;
-  margin: 0;
-}
-
-.name {
-  margin: 0px 0px; 
-  padding: 0;
-  font-size: 1.6em; 
-  line-height: 1.8em;  
-  text-align: center; 
-}
-
-.title {
-  font-size: .8em; 
-  margin: 0 0px; 
-  text-align: center;
 }
 
 .nav-links {
@@ -108,11 +252,14 @@ a:hover {
 
 .sub-menu li {
   background: rgba(250,250,250,.4); 
+  width: 50%;
+  margin: auto; 
 }
 
 .active {
   text-decoration: underline;
 }
+*/
 
 
 /********* Gallery **********/
@@ -170,7 +317,8 @@ div.scrollableArea {
   left: 0; 
   position: absolute;
   z-index: 2;
-  height: 50px
+  min-height: 40px;
+  max-height: 50px; 
 }
 
 .media-links {

@@ -7,3 +7,15 @@ $(document).ready(function(){
     autoScrollingMode: "onStart"
   });
 });
+
+$(document).ready(function(e){
+  
+  $('.nav-toggle').click(function(){
+    $(this).parent().toggleClass('active');
+  });
+  
+  $('.main-nav p').click(function(){
+    $(this).parent().toggleClass('active');
+  });
+  
+});
