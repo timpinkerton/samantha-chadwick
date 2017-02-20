@@ -74,7 +74,7 @@ a:hover {
 
 .title {
   font-size: .8em; 
-  margin: 0 20px; 
+  margin: 0 0px; 
   text-align: center;
 }
 
@@ -92,6 +92,22 @@ a:hover {
 
 .nav-links a:hover {
   text-decoration: underline;
+}
+
+.nav-links li:hover .sub-menu {
+  display: block;
+  max-height: 100px; 
+}
+
+.sub-menu {
+  overflow: hidden; 
+  max-height: 0; 
+  font-size: .8em;
+  -webkit-transition: all 0.35s ease-out;
+}
+
+.sub-menu li {
+  background: rgba(250,250,250,.4); 
 }
 
 .active {
