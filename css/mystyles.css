@@ -333,6 +333,7 @@ div.scrollableArea {
   font-size: 1.4em;
   flex-grow: 1;
   text-align: center; 
+  background: blue; 
 }
 
 
