@@ -222,8 +222,8 @@ div.scrollableArea {
 
 /********* About **********/
 
-body {
-    background: url(/img/unspecified-1.png) no-repeat center center fixed; 
+.about-bg {
+  background: url(/img/unspecified-1.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -239,6 +239,24 @@ body {
   font-size: .8em; 
 }
 
+/********* contact **********/
+
+.contact-bg {
+  background: url(/img/unspecified-5.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact {
+  width: 100%; 
+  margin: 140px auto; 
+  position: absolute; 
+  font-family: Quicksand; 
+  font-size: .8em;
+  text-align: center; 
+}
 
 /********* Footer **********/
 
