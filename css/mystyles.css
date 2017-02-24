@@ -107,7 +107,7 @@ a:hover {
 
 .main-nav li {
   font-family: 'Quicksand', sans-serif; 
-  font-size: 1em; 
+  font-size: .8em; 
   display: inline-flex; 
   margin: 0 10px; 
 }
@@ -222,10 +222,21 @@ div.scrollableArea {
 
 /********* About **********/
 
+body {
+    background: url(/img/unspecified-1.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 .about {
-  margin: 150px 50px; 
+  margin: 140px 60px 0;
+  padding: 0; 
   position: absolute; 
+  font-family: Quicksand; 
+  font-size: .8em; 
 }
 
 
