@@ -232,11 +232,12 @@ body {
 
 
 .about {
-  margin: 140px 60px 0;
+  margin: 120px 60px 0;
   padding: 0; 
   position: absolute; 
   font-family: Quicksand; 
   font-size: .8em; 
+  text-align: justify;
 }
 
 
