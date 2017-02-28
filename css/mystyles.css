@@ -205,14 +205,21 @@ div.scrollableArea {
 	float: left;
 	margin: 0;
 	padding: 0;
+    cursor: default;
+
+  
 /*
 	prevents images in the scroller from accidentally being  selected/inverted when the user interacts with the scroller. 
 */
+  
+  
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-o-user-select: none;
 	user-select: none;
+  
+  
 }
 
 .scrollableArea img {
