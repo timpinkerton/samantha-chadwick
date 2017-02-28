@@ -230,7 +230,7 @@ div.scrollableArea {
 /********* About **********/
 
 .about-bg {
-  background: url(/img/unspecified-1.png) no-repeat center center fixed; 
+  background: url(../img/unspecified-1.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -250,7 +250,7 @@ div.scrollableArea {
 /********* contact **********/
 
 .contact-bg {
-  background: url(/img/unspecified-5.png) no-repeat center center fixed; 
+  background: url(../img/unspecified-5.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
