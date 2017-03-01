@@ -39,28 +39,33 @@ a:hover {
 
 /********* Heading **********/
 
+/*
 .name-title {
   font-family: 'Arimo', sans-serif; 
   color: #000;
   margin: 0;
   padding: 0; 
   list-style: none; 
+  background: red; 
 }
+*/
 
 .name {
   font-family: 'Arimo', sans-serif; 
   margin: 0px 0px; 
   padding: 0;
-  font-size: 1.6em; 
-  line-height: 1.6em;  
+  font-size: 1.75em; 
+  line-height: 1.3em;  
   text-align: center; 
 }
 
+/*
 .title {
-  font-size: .8em; 
+  font-size: 2em; 
   margin: 0 0px; 
   text-align: center;
 }
+*/
 
 
 /********* NEW Navigation **********/
@@ -75,7 +80,7 @@ a:hover {
 
 .nav-toggle {
   font-family: 'Quicksand', sans-serif; 
-  font-size: 1.em;
+  font-size: 1.35em;
   cursor: pointer;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
@@ -243,7 +248,7 @@ div.scrollableArea {
   margin: 120px 60px 0;
   padding: 0; 
   position: absolute; 
-  font-family: Quicksand; 
+  font-family: 'Quicksand', sans-serif;
   font-size: .8em; 
   text-align: justify;
 }
@@ -262,7 +267,7 @@ div.scrollableArea {
   width: 100%; 
   margin: 140px auto; 
   position: absolute; 
-  font-family: Quicksand; 
+  font-family: 'Quicksand', sans-serif; 
   font-size: .8em;
   text-align: center; 
 }
