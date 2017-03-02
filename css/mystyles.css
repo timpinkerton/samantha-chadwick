@@ -54,7 +54,7 @@ a:hover {
   font-family: 'Arimo', sans-serif; 
   margin: 0px 0px; 
   padding: 0;
-  font-size: 1.75em; 
+  font-size: 1.65em; 
   line-height: 1.3em;  
   text-align: center; 
 }
@@ -80,7 +80,7 @@ a:hover {
 
 .nav-toggle {
   font-family: 'Quicksand', sans-serif; 
-  font-size: 1.35em;
+  font-size: 1.5em;
   cursor: pointer;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
@@ -89,7 +89,7 @@ a:hover {
   transition: all 1s ease-in-out;
   text-align: center;
   padding: 0; 
-  margin:  0 5px 0 0; 
+  margin:  0; 
   flex-grow: 1; 
 }
 
@@ -112,9 +112,9 @@ a:hover {
 
 .main-nav li {
   font-family: 'Quicksand', sans-serif; 
-  font-size: .8em; 
+  font-size: 1.1em; 
   display: inline-flex; 
-  margin: 0 10px; 
+  margin: 0; 
 }
 
 .main-nav li > ul {
@@ -132,14 +132,16 @@ a:hover {
 .main-nav li.active > ul {
   max-height: 999px;
   opacity: 1;
-  width: 100%; 
+  width: 100%;
+  margin: 4px 0; 
 }
 
 .main-nav a, .main-nav p {
   color: #000;
   text-decoration: none;
-  margin: 4px 0px;
+  margin: 0px;
   display: block;
+  padding: 2px 6px 5px; 
 }
 
 .main-nav a:hover, .main-nav p:hover {
@@ -152,12 +154,9 @@ a:hover {
   cursor: default;
 }
 
-.sub-menu {
-  padding: 0; 
-}
-
 .sub-menu li {
   display: block;
+  font-size: .75em; 
 }
 
 .nav-links {
@@ -291,8 +290,12 @@ footer {
 
 .media-links li {
   margin: 0;
-  padding: 0; 
+  padding: 0px; 
   font-size: 1.4em;
   flex-grow: 1;
   text-align: center;
+}
+
+.media-links a {
+  padding: 10px 20px; 
 }
