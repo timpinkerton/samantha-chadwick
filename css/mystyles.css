@@ -1,3 +1,13 @@
+a {
+  color: #000;
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: none; 
+  color: #000;
+}
+
 /********* Landing Page **********/
 
 .landing {
@@ -19,36 +29,7 @@
   opacity: 0; 
 }
 
-
-/********* Main Page **********/
-
-.main {
-  background: url(../img/image-50_wide.jpg) no-repeat center fixed;
-}
-
-a {
-  color: #000;
-  text-decoration: none; 
-}
-
-a:hover {
-  text-decoration: none; 
-  color: #000;
-}
-
-
 /********* Heading **********/
-
-/*
-.name-title {
-  font-family: 'Arimo', sans-serif; 
-  color: #000;
-  margin: 0;
-  padding: 0; 
-  list-style: none; 
-  background: red; 
-}
-*/
 
 .name {
   font-family: 'Arimo', sans-serif; 
@@ -59,14 +40,6 @@ a:hover {
   text-align: center; 
 }
 
-/*
-.title {
-  font-size: 2em; 
-  margin: 0 0px; 
-  text-align: center;
-}
-*/
-
 
 /********* NEW Navigation **********/
 
@@ -75,34 +48,42 @@ a:hover {
   z-index: 5; 
   width: 100%; 
   height: 100px; 
-  background: linear-gradient(to bottom, rgba(250,250,250,1) 55%, rgba(250,250,250,0.0));
+  background: linear-gradient(to bottom, rgba(250,250,250,1) 59%, rgba(250,250,250,0.0));
 }
 
 .nav-toggle {
   font-family: 'Quicksand', sans-serif; 
   font-size: 1.5em;
   cursor: pointer;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
   text-align: center;
   padding: 0; 
   margin:  0; 
   flex-grow: 1; 
+  
+  /*
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+*/
 }
 
 .main-nav {
   max-height: 0px;
   overflow: hidden;
   display: flex; 
-   -webkit-transition: all 0.5s ease-in-out;
+  justify-content: space-around;
+
+/*  main nav transitions */
+  
+/*
+  -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  justify-content: space-around;
+*/
 }
 
 .main-nav ul {
@@ -122,11 +103,16 @@ a:hover {
   width: 0; 
   opacity: 0;
   overflow: hidden;
+  
+/*  sub-menu transitions*/
+  
+/*
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+*/
 }
 
 .main-nav li.active > ul {
@@ -211,20 +197,16 @@ div.scrollableArea {
 	margin: 0;
 	padding: 0;
     cursor: default;
-
   
 /*
 	prevents images in the scroller from accidentally being  selected/inverted when the user interacts with the scroller. 
 */
-  
-  
+   
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-o-user-select: none;
-	user-select: none;
-  
-  
+	user-select: none;  
 }
 
 .scrollableArea img {
@@ -244,12 +226,21 @@ div.scrollableArea {
 
 
 .about {
-  margin: 120px 60px 0;
+  margin: 130px 60px 0;
   padding: 0; 
   position: absolute; 
   font-family: 'Quicksand', sans-serif;
   font-size: .8em; 
+  justify-content: center;
   text-align: justify;
+  display: flex;
+  flex-direction: column; 
+}
+
+.about p {
+  vertical-align: middle; 
+  padding: 0;
+  margin: 5px; 
 }
 
 /********* contact **********/
@@ -264,11 +255,21 @@ div.scrollableArea {
 
 .contact {
   width: 100%; 
-  margin: 140px auto; 
+  margin: 140px 0; 
+  padding: 0; 
   position: absolute; 
   font-family: 'Quicksand', sans-serif; 
   font-size: .8em;
+  justify-content: center; 
   text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+}
+
+.contact a {
+  vertical-align: middle; 
+  margin: 0 auto; 
+  padding: 0; 
 }
 
 /********* Footer **********/
