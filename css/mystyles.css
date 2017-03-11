@@ -98,6 +98,8 @@ a:hover {
   margin: 0; 
 }
 
+/*Submenu list items*/
+
 .main-nav li > ul {
   max-height: 0px;
   width: 0; 
