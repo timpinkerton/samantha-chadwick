@@ -1,9 +1,18 @@
 @media screen and (min-width: 693px) {
 
+  
+  .name, 
+  .nav-toggle {
+    width: 65%;
+    margin-left: 10px; 
+  }
+  
+  
 /********* Heading **********/
 
   .name { 
     text-align: left; 
+    margin-top: 3px; 
   }
   
 /********* Navigation **********/
@@ -14,14 +23,14 @@
     width: 30%; 
     height: 100%; 
     background: linear-gradient(to right, rgba(250,250,250,1) 59%, rgba(250,250,250,0.0));
+    width: 275px; 
   } 
   
-  .nav-toggle {
-  font-size: 1em;
-  text-align: left;
-  padding: 0; 
-  margin:  0; 
-  flex-grow: 1; 
+  .nav-toggle { 
+    font-size: 0.97em;
+    text-align: left;
+    padding: 0; 
+    flex-grow: 1; 
   
     /*
     -webkit-transition: all 0.5s ease-in-out;
@@ -31,14 +40,21 @@
     transition: all 0.5s ease-in-out;
   */
   }
+  
+  .fa-bars {
+    display: none; 
+  }
 
 
   .main-nav {
-  max-height: 0px;
+  max-height: 100%;
   overflow: hidden;
   display: flex; 
   justify-content: space-around;
   width: 50%; 
+  margin-top: 30PX; 
+  margin-left: 10px; 
+    
 
   /*  main nav transitions */
 
@@ -53,11 +69,26 @@
   
   .main-nav li {
     display: block; 
+    font-size: .88em; 
+    margin: 45px 0;
   }
   
   .main-nav li > ul {
-    padding-left: 30px;  
+/*    padding-left: 30px; */
   }
+  
+  .sub-menu li {
+    width: 75%; 
+    padding-left: 30px; 
+  }
+  
+  .main-nav a, .main-nav p {
+
+  margin: 0px;
+
+  padding: 2px 6px 5px; 
+}
+  
   
   /********* Gallery **********/
 
@@ -75,20 +106,9 @@
   }
 
   .media-links {
-    width: 20%; 
+    width: 178px;
+    flex-direction: column; 
+    
   }
-
-  .media-links li {
-    margin: 0;
-    padding: 0px; 
-    font-size: 1.4em;
-    flex-grow: 1;
-    text-align: center;
-  }
-
-  .media-links a {
-    padding: 10px 20px; 
-  }
-  
   
 }

@@ -98,13 +98,14 @@ a:hover {
   margin: 0; 
 }
 
-/*Submenu list items*/
+/*Submenu list items when not showing*/
 
 .main-nav li > ul {
   max-height: 0px;
   width: 0; 
   opacity: 0;
   overflow: hidden;
+   
   
 /*  sub-menu transitions*/
   
@@ -138,26 +139,26 @@ a:hover {
   text-decoration: underline; 
 }
 
-.main-nav p:hover {
-  cursor: default;
-}
-
 .sub-menu li {
   display: block;
-  font-size: .75em; 
+  font-size: .75em;  
 }
 
+/*
 .nav-links {
-  width: 100%; 
+  width: 100%;
   padding: 0; 
   display: flex; 
   justify-content: space-around
 }
 
+
 .nav-links li {
   margin: 0 20px; 
   display: inline-flex; 
 }
+*/
+
 
 .nav-container.active .main-nav {
   max-height: 999px;
