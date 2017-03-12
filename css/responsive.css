@@ -70,7 +70,7 @@
   .main-nav li {
     display: block; 
     font-size: .88em; 
-    margin: 45px 0;
+    margin: 20px 0;
   }
   
   .main-nav li > ul {
@@ -80,6 +80,7 @@
   .sub-menu li {
     width: 75%; 
     padding-left: 30px; 
+    text-align: right;
   }
   
   .main-nav a, .main-nav p {
@@ -103,12 +104,17 @@
   footer {
     background: none; 
     z-index: 6;
+    height: 300px; 
   }
 
   .media-links {
-    width: 178px;
+    width: 167px;
     flex-direction: column; 
-    
   }
+  
+  .media-links li {
+    margin: 25px 0; 
+  }
+  
   
 }

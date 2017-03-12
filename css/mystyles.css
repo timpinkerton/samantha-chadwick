@@ -177,7 +177,7 @@ a:hover {
   height: 93%; 
   position: absolute;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 div.scrollWrapper {
@@ -284,6 +284,7 @@ footer {
   position: absolute;
   height: 43px; 
   background: linear-gradient(to top, rgba(250,250,250,1) 55%, rgba(250,250,250,0.0)); 
+  
 }
 
 .media-links {
