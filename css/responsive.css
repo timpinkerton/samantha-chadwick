@@ -86,7 +86,6 @@
   .main-nav a, .main-nav p {
 
   margin: 0px;
-
   padding: 2px 6px 5px; 
 }
   
@@ -98,6 +97,25 @@
     height: 100%;
     margin: 0; 
   }
+  
+  
+/********* About **********/
+  
+  .about {
+    width: 70%;
+    height: 90%; 
+    margin: 60px 60px 0 200px;
+    font-size: 1.1em; 
+    border: solid 1px red; 
+  }
+  
+  .about p {
+    margin: 20px 0;
+    line-height: 1.5em;
+  }
+  
+  
+  
   
 /********* Footer **********/
 
@@ -120,7 +138,7 @@
 }
 
 
-@media screen and (min-width: 760px) and (min-height: 700px) {
+@media screen and (min-width: 760px) and (min-height: 650px) {
 
   /********* Navigation **********/
   
