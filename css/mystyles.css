@@ -229,19 +229,19 @@ div.scrollableArea {
 
 
 .about {
-  margin: 130px 60px 0;
+  margin: 140px 60px;
+  text-align: justify;
+
+  
   padding: 0; 
   position: absolute; 
   font-family: 'Quicksand', sans-serif;
   font-size: .8em; 
-  justify-content: center;
-  text-align: justify;
   display: flex;
   flex-direction: column; 
 }
 
 .about p {
-  vertical-align: middle; 
   padding: 0;
   margin: 5px; 
 }
@@ -259,19 +259,18 @@ div.scrollableArea {
 .contact {
   width: 100%; 
   margin: 140px 0; 
+  text-align: center; 
+
+  
   padding: 0; 
   position: absolute; 
   font-family: 'Quicksand', sans-serif; 
   font-size: .8em;
-  justify-content: center; 
-  text-align: center; 
   display: flex; 
   flex-direction: column; 
 }
 
 .contact a {
-  vertical-align: middle; 
-  margin: 0 auto; 
   padding: 0; 
 }
 
