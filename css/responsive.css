@@ -68,7 +68,7 @@
   
   .main-nav li {
     display: block; 
-    font-size: .88em; 
+    font-size: .95em; 
     margin: 15px 0;
   }
   
@@ -95,17 +95,20 @@
   
 /********* About **********/
   
-  .about, .contact {
+  .about {
 /*
     width: 70%;
     height: 60%; 
     margin: 60px 60px 0 200px;
     font-size: 1.025em; 
 */
+    
     margin-left: 275px; 
     margin-top: 35px; 
     font-size: .95em; 
+        
     height: 80%;
+    max-width: 600px; 
   }
   
   .about p {
@@ -116,8 +119,14 @@
   
 /********* Contact **********/
   
-
-
+  .contact {
+    margin-left: 75px; 
+    font-size: .95em; 
+  }
+  
+  .contact a {
+    line-height: 3em; 
+  }
   
   
 /********* Footer **********/
@@ -147,6 +156,7 @@
   
   .main-nav {
     margin-top: 10px; 
+    font-size: 1.1em; 
   }
   
   
@@ -165,6 +175,18 @@
     margin: 10px 0;
     line-height: 1.6em;
   }
+  
+  
+  /********* Contact **********/
+  
+  .contact {
+    font-size: 1.1em; 
+  }
+  
+  .contact a {
+    line-height: 5em; 
+  }
+  
   
   /********* Footer **********/
 

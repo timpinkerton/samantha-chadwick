@@ -227,7 +227,6 @@ div.scrollableArea {
   background-size: cover;
 }
 
-
 .about {
   margin: 140px 60px;
   text-align: justify;
@@ -258,7 +257,7 @@ div.scrollableArea {
 
 .contact {
   width: 100%; 
-  margin: 140px 0; 
+  margin-top: 140px; 
   text-align: center; 
 
   
@@ -271,7 +270,8 @@ div.scrollableArea {
 }
 
 .contact a {
-  padding: 0; 
+  padding: 8px; 
+  line-height: 4em; 
 }
 
 /********* Footer **********/
