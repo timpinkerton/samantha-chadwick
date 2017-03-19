@@ -4,7 +4,7 @@ $(document).ready(function(){
     mousewheelScrolling: "allDirections",
     mousewheelScrollingStep: 3,
     manualContinuousScrolling: true,
-    autoScrollingMode: "onStart"
+//    autoScrollingMode: "onStart"
   });
 });
 
