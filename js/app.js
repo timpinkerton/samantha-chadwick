@@ -4,6 +4,7 @@ $(document).ready(function(){
     mousewheelScrolling: "allDirections",
     mousewheelScrollingStep: 3,
     manualContinuousScrolling: true,
+    touchScrolling: true,
 //    autoScrollingMode: "onStart"
   });
 });
@@ -19,8 +20,8 @@ $(document).ready(function(e){
 
 
 
-$(document).ready(function() {
-		$("#makeMeScrollable").smoothTouchScroll({ 
-			continuousScrolling: true
-		});
-	});
+//$(document).ready(function() {
+//		$("#makeMeScrollable").smoothTouchScroll({ 
+//			continuousScrolling: true
+//		});
+//	});
