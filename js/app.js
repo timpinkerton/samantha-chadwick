@@ -2,9 +2,14 @@
 $(document).ready(function(){
   $('#makeMeScrollable').smoothDivScroll({
     mousewheelScrolling: "allDirections",
-    mousewheelScrollingStep: 3,
-    manualContinuousScrolling: true,
+    mousewheelScrollingStep: 2,
+    
+//    manualContinuousScrolling: true,
+    
     touchScrolling: true,
+  	hotSpotScrolling: false,
+    hotSpotScrollingStep: 5,
+
 //    autoScrollingMode: "onStart"
   });
 });
