@@ -4,7 +4,7 @@ $(document).ready(function(){
     mousewheelScrolling: "allDirections",
     mousewheelScrollingStep: 2,
     
-//    manualContinuousScrolling: true,
+    continuousScrolling: true,
     
     touchScrolling: true,
   	hotSpotScrolling: false,
