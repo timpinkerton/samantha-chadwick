@@ -4,7 +4,7 @@ $(document).ready(function(){
     mousewheelScrolling: "allDirections",
     mousewheelScrollingStep: 2,
     
-    manualContinuousScrolling: false,
+//    manualContinuousScrolling: false,
     
 //    touchScrolling: true,
 //    hotSpotScrolling: false,
@@ -27,6 +27,6 @@ $(document).ready(function(e){
 
 $(document).ready(function(){
 		$("#makeMeScrollable").smoothTouchScroll({ 
-			continuousScrolling: true,
+			continuousScrolling: false,
 		});
 	});
