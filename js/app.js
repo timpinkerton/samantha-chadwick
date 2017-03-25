@@ -1,13 +1,15 @@
 
 $(document).ready(function(){
   $("#makeMeScrollable").smoothDivScroll({
+    
     mousewheelScrolling: "allDirections",
-    mousewheelScrollingStep: 2,
+    mousewheelScrollingStep: 1, 
+
+    manualContinuousScrolling: true,
     
-//    manualContinuousScrolling: false,
+    touchScrolling: true,
+    hotSpotScrolling: false,
     
-//    touchScrolling: true,
-//    hotSpotScrolling: false,
 //    hotSpotScrollingStep: 5,
 
 //    autoScrollingMode: "onStart"
@@ -25,8 +27,8 @@ $(document).ready(function(e){
 
 
 
-$(document).ready(function(){
-		$("#makeMeScrollable").smoothTouchScroll({ 
-			continuousScrolling: false,
-		});
-	});
+//$(document).ready(function(){
+//  $("#makeMeScrollable").smoothTouchScroll({ 
+//      continuousScrolling: false,
+//  });
+//});
