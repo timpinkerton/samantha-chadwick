@@ -1,14 +1,14 @@
 
 $(document).ready(function(){
-  $('#makeMeScrollable').smoothDivScroll({
+  $("#makeMeScrollable").smoothDivScroll({
     mousewheelScrolling: "allDirections",
     mousewheelScrollingStep: 2,
     
-    continuousScrolling: true,
+    manualContinuousScrolling: false,
     
-    touchScrolling: true,
-  	hotSpotScrolling: false,
-    hotSpotScrollingStep: 5,
+//    touchScrolling: true,
+//    hotSpotScrolling: false,
+//    hotSpotScrollingStep: 5,
 
 //    autoScrollingMode: "onStart"
   });
@@ -25,8 +25,8 @@ $(document).ready(function(e){
 
 
 
-//$(document).ready(function() {
-//		$("#makeMeScrollable").smoothTouchScroll({ 
-//			continuousScrolling: true
-//		});
-//	});
+$(document).ready(function(){
+		$("#makeMeScrollable").smoothTouchScroll({ 
+			continuousScrolling: true,
+		});
+	});
