@@ -1,10 +1,14 @@
 
 $(document).ready(function(){
   $("#makeMeScrollable").smoothDivScroll({
+    
     mousewheelScrolling: "allDirections",
     mousewheelScrollingStep: 1, 
+    
     manualContinuousScrolling: true,
+   
     touchScrolling: true,
+    
     hotSpotScrolling: false,
     
 //    hotSpotScrollingStep: 5,
