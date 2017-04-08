@@ -174,7 +174,8 @@ a:hover {
 
 /********* Gallery **********/
 
-#makeMeScrollable {
+
+.makeMeScrollable {
   width: 100%;
   height: 93%; 
   position: absolute;
@@ -195,7 +196,7 @@ div.scrollableArea {
   width: 9000px; 
 }
 
-#makeMeScrollable div.scrollableArea * {
+.makeMeScrollable div.scrollableArea * {
 	position: relative;
 	display: block;
 	float: left;
@@ -214,9 +215,10 @@ div.scrollableArea {
 	user-select: none;  
 }
 
-.scrollableArea img {
-  height: 100%; 
+.scrollableArea div {
+  height: 100%;
 }
+
 
 
 /********* About **********/
