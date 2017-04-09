@@ -1,19 +1,10 @@
 
 $(document).ready(function(){
   $("#makeMeScrollable").smoothDivScroll({
-    
     mousewheelScrolling: "allDirections",
     mousewheelScrollingStep: 1, 
-    
+
     manualContinuousScrolling: true,
-   
-    touchScrolling: true,
-    
-    hotSpotScrolling: false,
-    
-//    hotSpotScrollingStep: 5,
-//    autoScrollingMode: "onStart"
-    
   });
 });
 
@@ -26,10 +17,8 @@ $(document).ready(function(e){
   });
 });
 
-
-
-//$(document).ready(function(){
-//  $("#makeMeScrollable").smoothTouchScroll({ 
-//      continuousScrolling: false,
-//  });
-//});
+$(document).ready(function(){
+  $("#makeMeScrollable").smoothTouchScroll({ 
+      continuousScrolling: false,
+  });
+});

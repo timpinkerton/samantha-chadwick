@@ -8,7 +8,7 @@ a:hover {
   color: #000;
 }
 
-/********* Landing Page **********/
+/********* INDEX PAGE **********/
 
 .landing {
   background: url(../img/landingimg2.jpg) no-repeat center center fixed; 
@@ -29,7 +29,7 @@ a:hover {
   opacity: 0; 
 }
 
-/********* Heading **********/
+/********* HEADING **********/
 
 .name {
   font-family: 'Arimo', sans-serif; 
@@ -41,7 +41,7 @@ a:hover {
 }
 
 
-/********* NEW Navigation **********/
+/********* NAVIGATION **********/
 
 .second-container {
   position: absolute; 
@@ -172,7 +172,7 @@ a:hover {
 }
 
 
-/********* Gallery **********/
+/********* GALLERY **********/
 
 #makeMeScrollable {
   width: 100%;
@@ -219,7 +219,7 @@ div.scrollableArea {
 }
 
 
-/********* About **********/
+/********* ABOUT **********/
 
 .about-bg {
   background: url(../img/unspecified-1.png) no-repeat center center fixed; 
@@ -248,7 +248,7 @@ div.scrollableArea {
   margin: 5px; 
 }
 
-/********* contact **********/
+/********* CONTACT **********/
 
 .contact-bg {
   background: url(../img/unspecified-5.png) no-repeat center center fixed; 
@@ -277,7 +277,7 @@ div.scrollableArea {
   line-height: 4em; 
 }
 
-/********* Footer **********/
+/********* FOOTER **********/
 
 footer { 
   position: fixed; 
