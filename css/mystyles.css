@@ -11,11 +11,18 @@ a:hover {
 /********* INDEX PAGE **********/
 
 .landing {
-  background: url(../img/landingimg2.jpg) no-repeat center center fixed; 
+  
+/*  remvoved a center attribute from background*/
+  background: url(../img/landingimg2.jpg) no-repeat center fixed; 
+  
+/*
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+*/
+  
   background-size: cover;
+  
 }
 
 .clearlanding {
