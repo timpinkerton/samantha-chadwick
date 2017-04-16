@@ -14,7 +14,7 @@ a:hover {
   
   height: 100%;
   width: 100%;  
-  background: url(../img/landingimg2.jpg);
+  background: url(../img/indexbg-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   position: fixed;
@@ -232,11 +232,23 @@ div.scrollableArea {
 /********* ABOUT **********/
 
 .about-bg {
-  background: url(../img/unspecified-1.png) no-repeat center center fixed; 
+  
+  height: 100%;
+  width: 100%;  
+  background: url(../img/aboutbg-min.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  background-size: cover;
+  
+/*
+  background: url(../img/aboutbg-min.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+*/
+  
 }
 
 .about {
@@ -261,11 +273,23 @@ div.scrollableArea {
 /********* CONTACT **********/
 
 .contact-bg {
-  background: url(../img/unspecified-5.png) no-repeat center center fixed; 
+  
+  height: 100%;
+  width: 100%;  
+  background: url(../img/contactbg-min.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  background-size: cover;
+  
+/*
+  background: url(../img/contactbg-min.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+*/
+  
 }
 
 .contact {
